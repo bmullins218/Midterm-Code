@@ -74,7 +74,7 @@ public class Student_Test {
 		BusinessS17_S0.setGrade(3.3);//(87)
 		
 		double GPAstudent0 = ((EngineeringF16_S0.getGrade()+CompSiF16_S0.getGrade()+BusinessF16_S0.getGrade()+
-				EngineeringS17_S0.getGrade()+CompSiS17_S0.getGrade()+ BusinessS17_S0.getGrade())/18);
+				EngineeringS17_S0.getGrade()+CompSiS17_S0.getGrade()+ BusinessS17_S0.getGrade())/6);
 		assertEquals("GPA for student0 is:",GPAstudent0==3.33);
 		
 		
